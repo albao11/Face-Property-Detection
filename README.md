@@ -9,5 +9,5 @@ Another interesting feature of this challenge was that the validation set provid
 
 The adopted strategy to solve this challenge was as follows: First, I investigated the training set and given its properties I built a proper dataset that could be used for building a suitable classification algorithm. For computer vision tasks, state-of-the art approaches are based on using convolution neural networks (CNNs). For this reason, I decided to experiment with several CNN models, starting from very simple ones and going to more complicated ones. On more complex architectures, the idea was to use transfer learning, as described later on in this report. After comparing the different tested CNN architectures, the final step consisted of choosing one model and train it more thoroughly with the aim of accurately predicting the labels on the test set provided during the second phase. 
 
-Please, refer to the report and the notebook for more details about that.
+Please, refer to the report and the notebook for the results of this challenge.
 
